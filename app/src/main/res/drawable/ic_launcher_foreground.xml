@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer subtle orbit ring within 66dp safe zone -->
+    <path
+        android:fillColor="#337C5CFF"
+        android:pathData="M54,24A30,30 0 1,1 24,54A30,30 0 0,1 54,24Z" />
+    <!-- Primary bold 4-point NOVA star -->
+    <path
+        android:fillColor="#7C5CFF"
+        android:pathData="M54,26 L61,47 L82,54 L61,61 L54,82 L47,61 L26,54 L47,47 Z" />
+    <!-- Inner luminous cyan core star -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,36 L58,50 L72,54 L58,58 L54,72 L50,58 L36,54 L50,50 Z" />
+    <!-- Crisp white center point -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,48 A6,6 0 1,1 48,54 A6,6 0 0,1 54,48 Z" />
+</vector>

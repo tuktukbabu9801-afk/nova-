@@ -1,0 +1,6 @@
+{
+  "name": "NOVA",
+  "description": "AI-powered daily planning and productivity assistant — Plan Your Day. Take Control of Your Life.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="360dp"
+    android:height="140dp"
+    android:viewportWidth="360"
+    android:viewportHeight="140">
+    <!-- Deep luxury dark card canvas -->
+    <path android:pathData="M0,0h360v140h-360z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="360"
+                android:endY="140"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#16142A" />
+                <item android:offset="0.6" android:color="#1F1942" />
+                <item android:offset="1.0" android:color="#12182B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Glowing ambient circles -->
+    <path
+        android:fillColor="#227C5CFF"
+        android:pathData="M295,35 A65,65 0 1,1 165,35 A65,65 0 0,1 295,35 Z" />
+    <path
+        android:fillColor="#1A38BDF8"
+        android:pathData="M340,95 A55,55 0 1,1 230,95 A55,55 0 0,1 340,95 Z" />
+    <!-- Geometric wave lines -->
+    <path
+        android:strokeColor="#447C5CFF"
+        android:strokeWidth="1.5"
+        android:pathData="M0,110 Q90,75 180,100 T360,70" />
+    <path
+        android:strokeColor="#3338BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M0,128 Q110,95 210,115 T360,90" />
+    <!-- NOVA star emblem on right -->
+    <path
+        android:fillColor="#7C5CFF"
+        android:pathData="M300,26 L306,45 L325,51 L306,57 L300,76 L294,57 L275,51 L294,45 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M300,37 L303,48 L314,51 L303,54 L300,65 L297,54 L286,51 L297,48 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M303,51 A3,3 0 1,1 297,51 A3,3 0 0,1 303,51 Z" />
+</vector>
